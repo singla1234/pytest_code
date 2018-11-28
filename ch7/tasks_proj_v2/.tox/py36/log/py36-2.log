@@ -1,0 +1,27 @@
+actionid: py36
+msg: installpkg
+cmdargs: "'C:\\Users\\gur29899\\Downloads\\bopytest-code\\code\\ch7\\tasks_proj_v2\\.tox\\py36\\Scripts\\python.EXE' -m pip install --exists-action w 'C:\\Users\\gur29899\\Downloads\\bopytest-code\\code\\ch7\\tasks_proj_v2\\.tox\\.tmp\\package\\1\\tasks-0.1.1.zip'"
+
+Processing c:\users\gur29899\downloads\bopytest-code\code\ch7\tasks_proj_v2\.tox\.tmp\package\1\tasks-0.1.1.zip
+Collecting click (from tasks==0.1.1)
+  Using cached https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl
+Collecting tinydb (from tasks==0.1.1)
+  Using cached https://files.pythonhosted.org/packages/58/55/54f428597853184ff74f6e65ff9c771aaad353fc182f881d9863bcc3bace/tinydb-3.12.1-py2.py3-none-any.whl
+Requirement already satisfied: six in c:\users\gur29899\downloads\bopytest-code\code\ch7\tasks_proj_v2\.tox\py36\lib\site-packages (from tasks==0.1.1) (1.11.0)
+Requirement already satisfied: pytest in c:\users\gur29899\downloads\bopytest-code\code\ch7\tasks_proj_v2\.tox\py36\lib\site-packages (from tasks==0.1.1) (4.0.0)
+Collecting pytest-mock (from tasks==0.1.1)
+  Using cached https://files.pythonhosted.org/packages/5e/58/c97f24442020f91af0a4a266280f48b2cbbc43b4e33b0955ac3b3425a5ff/pytest_mock-1.10.0-py2.py3-none-any.whl
+Requirement already satisfied: attrs>=17.4.0 in c:\users\gur29899\downloads\bopytest-code\code\ch7\tasks_proj_v2\.tox\py36\lib\site-packages (from pytest->tasks==0.1.1) (18.2.0)
+Requirement already satisfied: pluggy>=0.7 in c:\users\gur29899\downloads\bopytest-code\code\ch7\tasks_proj_v2\.tox\py36\lib\site-packages (from pytest->tasks==0.1.1) (0.8.0)
+Requirement already satisfied: py>=1.5.0 in c:\users\gur29899\downloads\bopytest-code\code\ch7\tasks_proj_v2\.tox\py36\lib\site-packages (from pytest->tasks==0.1.1) (1.7.0)
+Requirement already satisfied: atomicwrites>=1.0 in c:\users\gur29899\downloads\bopytest-code\code\ch7\tasks_proj_v2\.tox\py36\lib\site-packages (from pytest->tasks==0.1.1) (1.2.1)
+Requirement already satisfied: more-itertools>=4.0.0 in c:\users\gur29899\downloads\bopytest-code\code\ch7\tasks_proj_v2\.tox\py36\lib\site-packages (from pytest->tasks==0.1.1) (4.3.0)
+Requirement already satisfied: setuptools in c:\users\gur29899\downloads\bopytest-code\code\ch7\tasks_proj_v2\.tox\py36\lib\site-packages (from pytest->tasks==0.1.1) (40.6.2)
+Requirement already satisfied: colorama; sys_platform == "win32" in c:\users\gur29899\downloads\bopytest-code\code\ch7\tasks_proj_v2\.tox\py36\lib\site-packages (from pytest->tasks==0.1.1) (0.4.0)
+Building wheels for collected packages: tasks
+  Running setup.py bdist_wheel for tasks: started
+  Running setup.py bdist_wheel for tasks: finished with status 'done'
+  Stored in directory: C:\Users\gur29899\AppData\Local\pip\Cache\wheels\92\da\a2\f3909977a5112531923f9ec2ec61175ecd4e789ebf715b3a0b
+Successfully built tasks
+Installing collected packages: click, tinydb, pytest-mock, tasks
+Successfully installed click-7.0 pytest-mock-1.10.0 tasks-0.1.1 tinydb-3.12.1

@@ -1,0 +1,9 @@
+actionid: py36
+msg: getenv
+cmdargs: "'c:\\users\\gur29899\\pycharmprojects\\pytest_test\\venv\\scripts\\python.exe' -m virtualenv --python 'C:\\Users\\gur29899\\AppData\\Local\\Continuum\\anaconda3\\python.exe' py36"
+
+Using base prefix 'C:\\Users\\gur29899\\AppData\\Local\\Continuum\\anaconda3'
+New python executable in C:\Users\gur29899\Downloads\bopytest-code\code\ch7\tasks_proj_v2\.tox\py36\Scripts\python.exe
+Installing setuptools, pip, wheel...
+done.
+Running virtualenv with interpreter C:\Users\gur29899\AppData\Local\Continuum\anaconda3\python.exe

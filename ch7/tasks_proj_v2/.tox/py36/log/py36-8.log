@@ -1,0 +1,15 @@
+actionid: py36
+msg: installpkg
+cmdargs: "'C:\\Users\\gur29899\\Downloads\\bopytest-code\\code\\ch7\\tasks_proj_v2\\.tox\\py36\\Scripts\\python.EXE' -m pip install --no-deps -U 'C:\\Users\\gur29899\\Downloads\\bopytest-code\\code\\ch7\\tasks_proj_v2\\.tox\\.tmp\\package\\1\\tasks-0.1.1.zip'"
+
+Processing c:\users\gur29899\downloads\bopytest-code\code\ch7\tasks_proj_v2\.tox\.tmp\package\1\tasks-0.1.1.zip
+Building wheels for collected packages: tasks
+  Running setup.py bdist_wheel for tasks: started
+  Running setup.py bdist_wheel for tasks: finished with status 'done'
+  Stored in directory: C:\Users\gur29899\AppData\Local\pip\Cache\wheels\92\da\a2\f3909977a5112531923f9ec2ec61175ecd4e789ebf715b3a0b
+Successfully built tasks
+Installing collected packages: tasks
+  Found existing installation: tasks 0.1.1
+    Uninstalling tasks-0.1.1:
+      Successfully uninstalled tasks-0.1.1
+Successfully installed tasks-0.1.1
